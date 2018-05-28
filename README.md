@@ -1,7 +1,7 @@
 Img2Txt
 -----
 
-A dropzone3 action which recognizes texts in images(jpg/png/bmp) using baidu OCR API
+Img2Txt - A Dropzone 3 action which recognizes texts in images(jpg/png) using baidu OCR API
 
 #### 实现功能
 Dropzone 3 通过支持文件拖放来简化 Mac 上的很多操作,是提高工作效率的神器之一.识别图片中的文字是常见的需求,但貌似 Dropzone 3 上还没有通过拖放图片来获取其中文字的action插件. Img2Txt 实现的功能如下:
