@@ -45,7 +45,7 @@ def get_text(img_path):
     if access_token is None:
         access_token = os.environ['access_token']
 
-    CMD = 'base64 -i ' + img_path + ' | curl -s --data-urlencode image@- ' + \
+    CMD = 'base64 -i "' + img_path + '" | curl -s --data-urlencode image@- ' \
         'https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic\?access_token\=' + \
         access_token + ' -H "Content-Type: application/x-www-form-urlencoded"'
 
@@ -75,7 +75,7 @@ def token_outdated():
 def update_access_token():
     print("It's time to update the access_token...")
 
-    AUTH_URL = 'https://aip.baidubce.com/oauth/2.0/token' + \
+    AUTH_URL = 'https://aip.baidubce.com/oauth/2.0/token'
     '\?grant_type\=client_credentials'
 
     client_id = os.environ['username']
