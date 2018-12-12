@@ -3,6 +3,13 @@ Img2Txt
 
 Img2Txt - A Dropzone 3 action which recognizes texts in images(jpg/png) using baidu OCR API
 
+#### 使用方法(no pic, say jier)
+
+将图片拖放到插件的位置,等待识别完成的提示,直接粘贴文字即可:
+	
+[![img2txt-demo.gif](https://i.loli.net/2018/05/30/5b0d84e1b1e9e.gif)](https://i.loli.net/2018/05/30/5b0d84e1b1e9e.gif)
+
+
 #### 实现功能
 Dropzone 3 通过支持文件拖放来简化 Mac 上的很多操作,是提高工作效率的神器之一.识别图片中的文字是常见的需求,但貌似 Dropzone 3 上还没有通过拖放图片来获取其中文字的action插件. Img2Txt 实现的功能如下:
 
@@ -46,13 +53,6 @@ Dropzone 3 通过支持文件拖放来简化 Mac 上的很多操作,是提高工
 	
 	其中 `API Key` 以及 `Secret Key` 来自前一步. 
 	`Server` 以及 `Port` 分别填写 `https://aip.baidubce.com/rest/2.0/ocr/v1/accurate_basic` 以及 `443`.其它项不填写.
-
-##### 使用方法
-
-将图片拖放到插件的位置,等待识别完成的提示,直接粘贴文字即可:
-	
-[![img2txt-demo.gif](https://i.loli.net/2018/05/30/5b0d84e1b1e9e.gif)](https://i.loli.net/2018/05/30/5b0d84e1b1e9e.gif)
-
 
 #### TODO
 
