@@ -3,6 +3,9 @@ Img2Txt
 
 Img2Txt - A Dropzone 3 action which recognizes texts in images(jpg/png) using baidu OCR API
 
+[![](https://visitor-count-badge.herokuapp.com/total.svg?repo_id=waysup.Img2Txt)](https://github.com/waysup/Img2Txt)
+[![](https://visitor-count-badge.herokuapp.com/today.svg?repo_id=waysup.Img2Txt)](https://github.com/waysup/Img2Txt)
+
 #### 使用方法(no pic, say jier)
 
 将图片拖放到插件的位置,等待识别完成的提示,直接粘贴文字即可:
